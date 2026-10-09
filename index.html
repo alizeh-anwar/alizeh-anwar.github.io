@@ -1,21 +1,78 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>My Portfolio</title>
-  <style>
-    body { font-family: Arial; max-width: 700px; margin: 40px auto; }
-    h1 { color: #1F3864; }
-  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alizeh Anwar | Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>Alizeh Anwar</h1>
-  <p>BS Software Engineering student | Cloud Computing learner</p>
-  <h2>My Skills</h2>
-  <ul>
-    <li>Linux and Git</li>
-    <li>Python</li>
-    <li>Cloud Computing basics</li>
-  </ul>
-  <p>Email: www.alizehanwar@gmail.com</p>
+  <header class="hero">
+    <h1>Alizeh Anwar</h1>
+    <p>BS Software Engineering Student</p>
+    <nav>
+      <a href="#about">About Me</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I am Alizeh Anwar, a Software Engineering student at Fatima Jinnah Women University.
+        I enjoy learning how software is built, versioned, and deployed, and I am currently
+        exploring cloud computing, Git, Docker, and web development.
+      </p>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <div class="card">
+        <h3>BS Software Engineering</h3>
+        <p>Fatima Jinnah Women University</p>
+        <p class="muted">Currently in semester V</p>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul class="tags">
+        <li>HTML &amp; CSS</li>
+        <li>Git &amp; GitHub</li>
+        <li>Git LFS</li>
+        <li>Docker basics</li>
+        <li>Linux command line</li>
+        <li>Cloud computing fundamentals</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Lab 02</h3>
+          <p>Course lab work completed during the semester.</p>
+          <a href="https://github.com/alizeh-anwar/Lab02">View on GitHub</a>
+        </div>
+        <div class="card">
+          <h3>Lab 03</h3>
+          <p>Course lab work completed during the semester.</p>
+          <a href="https://github.com/alizeh-anwar/Lab03">View on GitHub</a>
+        </div>
+        <div class="card">
+          <h3>CodeAlpha Tasks</h3>
+          <p>Internship tasks and practice projects.</p>
+          <a href="https://github.com/alizeh-anwar/codealpha_tasks">View on GitHub</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Alizeh Anwar</p>
+  </footer>
 </body>
 </html>
